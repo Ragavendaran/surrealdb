@@ -352,6 +352,7 @@ fn function_array(i: &str) -> IResult<&str, &str> {
 			tag("array::all"),
 			tag("array::any"),
 			tag("array::append"),
+			tag("array::at"),
 			tag("array::combine"),
 			tag("array::complement"),
 			tag("array::concat"),

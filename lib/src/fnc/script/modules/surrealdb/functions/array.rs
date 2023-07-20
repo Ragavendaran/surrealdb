@@ -20,6 +20,7 @@ impl ModuleDef for Package {
 		module.add("default")?;
 		module.add("combine")?;
 		module.add("complement")?;
+		module.add("at");
 		module.add("concat")?;
 		module.add("difference")?;
 		module.add("distinct")?;
